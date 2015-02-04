@@ -1,0 +1,6 @@
+Django==1.7.4
+Pillow==2.7.0
+ipython==2.3.1
+mysql-python==1.2.5
+pyreadline==2.0
+virtualenv==12.0.5
