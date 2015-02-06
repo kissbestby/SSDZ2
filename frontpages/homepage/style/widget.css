@@ -61,7 +61,7 @@ p.card {
 	background-color: #EEE;
 }
 
-.notice-box a:link, a:visited, a:hover, a:active {
+.notice-box a:link, .notice-box a:visited, .notice-box a:hover, .notice-box a:active {
 	line-height: 20px;
 	width: 275px;
 	overflow: hidden;
