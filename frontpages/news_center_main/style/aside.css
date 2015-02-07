@@ -28,11 +28,10 @@
 }
 /*****************************************/
 /*******************侧栏******************/
-/*box1*/
 .cl{
 	float: left;
 	width: 280px;
-	/*height: 380px;*/
+	min-height: 380px;
 	background-color: #EEEEEE;
 }
 .cl_box_1_name{
@@ -99,8 +98,7 @@
 /*友情链接*/
 .yq_link{
 	float: left;
-	margin-bottom: 20px;
-	margin-top: 90px;
+	margin-bottom: 25px;
 }
 .youqinglianjie{
 	float: left;
@@ -112,7 +110,7 @@
 	text-indent: 10px;
 	border-bottom: 1px solid #000000;
 }
-select{
+/*select{
 	opacity: 0; 
 	filter: alpha(opacity: 0;); 
 	float: left;
@@ -127,6 +125,13 @@ select{
 	margin-top: 18px;
 	background-image: url("../images/select_back.jpg");
 	background-size: 240px 25px;
+}*/
+
+.rellinks {
+	width: 240px;
+	height: 28px;
+	border: 2px solid #00468C;
+	margin: 25px 20px 0 20px;
 }
 /**********/
 /*****************************************/
