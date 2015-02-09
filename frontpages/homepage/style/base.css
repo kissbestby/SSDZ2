@@ -8,29 +8,29 @@
 
 body {
 	margin: 0 auto;
-	width: 980px;
+	width: 1024px;
 	font-family: "微软雅黑";
 	font-size: 13px;
 }
 
 .container{
-	width: 980px;
-	margin-top: 10px;
+	width: 1024px;
+	overflow: auto;
 }
 
 .banner{
 	clear: both;
-	width: 980px;
-	height: 100px;
+	width: 1024px;
+	height: 114px;
 	background-image:url("../images/logo.jpg");
-	background-size:980px 100px;
+	background-size:1024px 114px;
 	background-repeat: no-repeat;
 	border-bottom: 1px solid #00468C;
 }
 /********************导航条*******************/
 .banner_nav {
 	position: relative;
-	top: 65px;
+	top: 79px;
 	margin-left: 36%;
 }
 
@@ -101,7 +101,7 @@ body {
 	text-align: right;
 	background-color: #00468C;
 	height:40px;
-	width: 980px;
+	width: 100%;
 }
 
 .footer-inf {
