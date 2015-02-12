@@ -8,19 +8,19 @@
 
 body {
 	margin: 0 auto;
-	width: 1024px;
+	width: 980px;
 	font-family: "微软雅黑";
 	font-size: 13px;
 }
 
 .container{
-	width: 1024px;
+	width: 980px;
 	overflow: auto;
 }
 
 .banner{
 	clear: both;
-	width: 1024px;
+	width: 980px;
 	height: 114px;
 	background-image:url("../images/logo.jpg");
 	background-size:1024px 114px;

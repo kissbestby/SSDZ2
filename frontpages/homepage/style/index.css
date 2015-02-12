@@ -5,8 +5,9 @@
 
 .rellinks {
 	width: 240px;
-	height: 25px;
+	height: 28px;
 	border: 2px solid #00468C;
+	margin: 5px 5px 15px;
 }
 
 .double-cell {
