@@ -5,6 +5,26 @@
 
 .rellinks {
 	width: 240px;
-	height: 25px;
+	height: 28px;
 	border: 2px solid #00468C;
+	margin: 5px 5px 15px;
+}
+
+.double-cell {
+	float: left;
+	width: 50%;
+}
+
+.summery-title {
+	overflow: hidden;
+}
+
+.summery-title p {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	position: relative;
+	z-index: 0;
 }

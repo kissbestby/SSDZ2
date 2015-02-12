@@ -34,7 +34,7 @@
 	min-height: 380px;
 	background-color: #EEEEEE;
 }
-.cl_box_1_name{
+.cl_box_name{
 	float: left;
 	margin-left: 10px;
 	margin-top: 15px;
@@ -45,56 +45,25 @@
 	text-indent: 10px;
 	border-bottom: 1px solid #000000;
 }
-.cl_box_1_ul{
+.cl_box_ul{
 	float: left;
 	margin-top: 15px;
 	margin-left: 20px;
 }
-.cl_box_1_ul li{
+.cl_box_ul li{
 	list-style-type: none;
 }
-.cl_box_1_ul a{
+.cl_box_ul a{
 	display: inline-block;
 	text-decoration: none;
 	color: #000000;
 	height: 23px;
-	font-size: 10px;
 }
-.cl_box_1_ul a:hover{
+.cl_box_ul a:hover{
 	text-decoration: underline;
 }
 /**********/
-/*box2*/
-.cl_box_2_name{
-	float: left;
-	margin-left: 10px;
-	margin-top: 15px;
-	color: #00468C;
-	font-size: 18px;
-	width: 260px;
-	height: 28px;
-	text-indent: 10px;
-	border-bottom: 1px solid #000000;
-}
-.cl_box_2_ul{
-	float: left;
-	margin-top: 15px;
-	margin-left: 20px;
-}
-.cl_box_2_ul li{
-	list-style-type: none;
-}
-.cl_box_2_ul a{
-	display: inline-block;
-	text-decoration: none;
-	color: #000000;
-	height: 23px;
-	font-size: 10px;
-}
-.cl_box_2_ul a:hover{
-	text-decoration: underline;
-}
-/**********/
+
 /*友情链接*/
 .yq_link{
 	float: left;
@@ -110,22 +79,7 @@
 	text-indent: 10px;
 	border-bottom: 1px solid #000000;
 }
-/*select{
-	opacity: 0; 
-	filter: alpha(opacity: 0;); 
-	float: left;
-	width: 240px;
-	height: 25px;
-}
-.select{
-	float: left;
-	width: 240px;
-	height: 25px;
-	margin-left: 20px;
-	margin-top: 18px;
-	background-image: url("../images/select_back.jpg");
-	background-size: 240px 25px;
-}*/
+
 
 .rellinks {
 	width: 240px;
@@ -144,7 +98,6 @@
 	float: left;
 	margin-top: 5px;
 	margin-left: 20px;
-	font-size: 10px;
 }
 .blue_k{
 	display: inline-block;
