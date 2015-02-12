@@ -1,0 +1,49 @@
+
+.cl_nav li:last-child a{
+	background-color: #FFFFFF;
+}
+.main_nr{
+	float: left;
+	margin-top: 30px;
+}
+.ach_box{
+	float: left;
+	margin-left: 30px;
+	width: 300px;
+	border: 1px solid #00468C;
+}
+.ach_bt{
+	height: 50px;
+	background-color:#00468C;
+	color: #FFFFFF;
+	font-size: 15px; 
+}
+.ach_bt p:first-child{
+	font-size: 17px; 
+	line-height: 25px;
+}
+.ach_bt p{
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+}
+.ach_box_nr{
+	text-align: center;
+	margin-top: 20px;
+}
+.ach_box_nr img{
+	width: 250px;
+	height: 150px;
+}
+.ach_box_nr p{
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 250px;
+	text-align: left;
+	font-size: 13px;
+	text-indent: 26px;
+	color: #808080;
+}
+.block1{
+	height: 15px;
+}

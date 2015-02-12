@@ -1,0 +1,84 @@
+.sidebar {
+	float: left;
+	width: 280px;
+	min-height: 200px;
+	padding: 0;
+}
+
+.main-frame {
+	float: left;
+	padding: 0 0 0 7px;
+	min-height: 200px;
+	width: 690px;
+}
+
+.sidebar-box {
+	width: 280px;
+	background-color: #EEE;
+}
+
+.box {
+	width: 335px;
+	float: left;
+	margin: 0 5px;
+}
+
+.title-box {
+	font-size: 17px;
+	line-height: 17px;
+	padding: 4px 0 4px 10px;
+	border-bottom: 1px solid #00468C;
+}
+
+.title-box span {
+	line-height: 17px;
+	font-size: 17px;
+	color: #00468C;
+}
+
+.content-box {
+	padding: 5px 5px;
+}
+
+p.card {
+	display: block;
+	background-color: #00468C;
+	font-size: 15px;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	margin: 5px;
+}
+
+
+.notice-box li {
+	width: 330px;
+	height: 23px;
+	border-bottom: 1px dotted #000;
+	list-style-type: none;
+}
+
+.notice-box li:hover {
+	background-color: #EEE;
+}
+
+.notice-box a:link, .notice-box a:visited, .notice-box a:hover, .notice-box a:active {
+	line-height: 23px;
+	width: 275px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.notice-box span {
+	float: right;
+	position: relative;
+	right: 0;
+	top: -20px;
+	line-height: 20px;
+	font-size: 12px;
+}
