@@ -1,0 +1,35 @@
+{% load staticfiles %}
+
+{% block external_header %}
+<link rel="stylesheet" href="{% static "style/aside.css" %}">
+<script type="text/javascript" src="{% static "scripts/autoheight.js" %}"></script>
+{% endblock %}
+
+<div class="dbt">
+	<div class="dbt_name">
+		<span>某某标题</span>
+	</div>
+</div>
+<div class="cl">
+	<nav class="cl_nav">
+		<li><a href="">某某小标题</a></li>
+		<li><a href="">某某小标题</a></li>
+		<li><a href="">某某小标题</a></li>
+		<li><a href="">某某小标题</a></li>
+		<li><a href="">某某小标题</a></li>
+	</nav>
+	
+	<div class="autoheight"><!--自动调节高度--></div>
+	<div class="yq_link">
+		<div class="youqinglianjie">友情链接</div>
+		<div>
+			<select class="rellinks" onchange="javascript:if(this.selectedIndex!=0) window.open(this.options[this.selectedIndex].value,'_blank');">
+				<option>相关链接</option>
+				<option value="http://www.ncepu.edu.cn" title="华北电力大学" label="华北电力大学">华北电力大学</option>
+				<option value="http://jwc.ncepu.edu.cn" title="华北电力大学教务处（北京）" label="教务处（北京）">教务处（北京）</option>
+				<option value="http://www.hee.cn" title="河北省教育厅" label="河北省教育厅">河北省教育厅</option>
+				<option value="http://www.moe.edu.cn" title="中华人民共和国教育部" label="中华人民共和国教育部">中华人民共和国教育部</option>
+			</select>
+		</div>
+	</div>
+</div>

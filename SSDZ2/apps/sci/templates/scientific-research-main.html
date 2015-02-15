@@ -1,0 +1,44 @@
+{% extends 'content-base.html' %}
+{% load staticfiles %}
+<!-- External Headers -->
+{% block external_headers %}
+<link rel="stylesheet" href="{% static "style/scientific-research_main.css" %}" />
+{% endblock %}
+<!-- End External Headers -->
+
+<!-- End Side Bar -->
+{% block content %}
+<!-- Main Frame -->
+<div class="article">
+	<div class="suoyin"><span class="blue_k"> </span><span class="suoyin_nr">首页 > 科学研究</span></div>
+	<div class="bt">科学研究</div>
+	<div class="main_nr">
+		<p class="wz">电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系</p>
+		<div class="img"><img alt="" src="/static/images/test1.jpg"/></div>
+		<div class="mingdan">
+			<div class="mdwarp w1">
+				<span class="md">科研项目</span>
+				<ul class="md">
+					<li class="md"><a class="md" href="">科研项目1</a></li>
+					<li class="md"><a class="md" href="">科研项目2</a></li>
+					<li class="md"><a class="md" href="">科研项目3</a></li>
+					<li class="md"><a class="md" href="">科研项目4</a></li>
+					<li class="more"><a class="more" href="">更多</a></li>
+				</ul>
+			</div>
+			<div class="mdwarp w2">
+				<span class="md">科研成果</span>
+				<ul class="md">
+					<li class="md"><a class="md" href="">科研成果1</a></li>
+					<li class="md"><a class="md" href="">科研成果2</a></li>
+					<li class="md"><a class="md" href="">科研成果3</a></li>
+					<li class="md"><a class="md" href="">科研成果4</a></li>
+					<li class="more"><a class="more" href="">更多</a></li>
+				</ul>
+			</div>
+			<div class="block"></div>
+		</div>
+	</div>
+</div>
+<!-- End Main Frame -->
+{% endblock %}
