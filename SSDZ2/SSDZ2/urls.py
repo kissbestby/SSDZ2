@@ -8,4 +8,5 @@ urlpatterns = patterns('',
 
 	url(r'^admin/', include(admin.site.urls)),
 	url(r'^sci/', include('apps.sci.urls')),
+	url(r'^news/', include('apps.news.urls')),
 )

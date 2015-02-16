@@ -1,0 +1,44 @@
+{% extends 'content-base.html' %}
+{% load staticfiles %}
+<!-- External Headers -->
+{% block external_headers %}
+<link rel="stylesheet" href="{% static "style/news_center_main.css" %}" />
+{% endblock %}
+<!-- End External Headers -->
+
+{% block content %}
+<div class="article">
+	<div class="suoyin"><span class="blue_k"> </span><span class="suoyin_nr">首页 > 新闻中心</span></div>
+	<!-- <div class="bt">某某小标题</div> -->
+	<div class="main_nr">
+		<!-- headline -->
+		<div class="headline">
+			<div class="headline_image"></div>
+			<div class="headline_news">
+				<a href="">头条新闻名称</a>
+				<p>电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系电子与通信工程系</p>
+			</div>
+		</div>
+		<!-- END-headline -->
+		<div class="news_list">
+			<ul>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+				<li><a href="">电子与通信工程系</a><time datetime="2014-07-29" pubdate="pubdate">2014-07-29</time></li>
+			</ul>
+		</div>
+		<div class="yema">
+			<a href="" class="yema_button">上一页</a>
+			<a href="" class="yema_num">1</a>
+			<a href="" class="yema_num">2</a>
+			<a href="" class="yema_num">3</a>
+			<a href="" class="yema_button">下一页</a>
+		</div>
+	</div>
+</div>
+{% endblock %}
