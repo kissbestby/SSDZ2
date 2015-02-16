@@ -6,7 +6,7 @@ jQuery(document).ready(
 		var objYl=$(".yq_link").height();
 		var temp=objMain - objClNav-objYl;	
 
-		if (temp<0) {
+		if (objMain<380) {
 			var objMin=$(".cl").height();
 			var a=objMin-objClNav-objYl;
 			$(".autoheight").css('height',a);
