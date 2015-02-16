@@ -1,0 +1,43 @@
+.main_nr{
+display:block;
+width: 660px;
+clear: both;
+float: left;
+margin-left:20px;
+margin-top:20px;
+}
+.img img{
+display:block;
+width:140px;
+height:168px;
+margin-left:auto;
+margin-right:auto;
+}
+.jieshao p{
+text-indent:2em;
+}
+.jieshao{
+width:500px;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Document */
+

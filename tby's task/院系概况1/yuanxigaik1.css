@@ -1,0 +1,30 @@
+/* CSS Document */
+.main_nr{
+display:block;
+width: 660px;
+clear: both;
+float: left;
+margin-left: 20px;
+margin-top:40px;
+}
+.warp{
+width:630px;
+height:150px;
+margin-left:auto;
+margin-right:auto;
+}
+img.img{
+display:block;
+width:180px;
+height:150px;
+float:left;
+}
+.wz{
+display:block;
+width:400px;
+float:left;
+margin-left:20px;
+}
+.wz p{
+text-indent:2em;
+}
