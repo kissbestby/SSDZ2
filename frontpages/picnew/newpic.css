@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_nr
+{ 
+	clear:both;
+}
+.pic_head
+{ 
+	text-align:center; 
+	clear:both; 
+	width:552px; 
+	height:26px; 
+	line-height:26px; 
+	font-size:20px; 
+	margin-top:50px; 
+	margin-left:60px;
+}
+.width
+{ 
+	width:655px; 
+	height:344px; 
+	position:relative; 
+	overflow:hidden; 
+	border:1px solid #000;
+}
+/*.width ul{ position:absolute;}*/
+.width ul li
+{ 
+	float:left; 
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px; 
+	position:absolute; 
+	left:0px;
+}
+.width ul li img
+{ 
+	width:655px; 
+	height:344px; 
+	padding:0px; 
+	margin:0px;
+}
+/*.prev,.next{ position:absolute; top:0px; width:59px; height:344px; background:rgba(0,0,0,0.5);}*/
+.prev,.next
+{ 
+	position:absolute; 
+	top:0px; 
+	width:59px; 
+	height:344px; 
+	opacity:0.8
+}
+.next
+{ 
+	left:600px;
+}

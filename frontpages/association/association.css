@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.main_nr_left
+{ 
+	float:left; 
+	width:300px; 
+	margin:30px 30px 0px 20px;
+}
+.main_nr_right
+{ 
+	width:310px; 
+	float:left; 
+	margin-top:30px;
+}
+.main_nr_right p
+{ 
+	word-break:break-all; 
+	word-wrap:break-word; 
+	font-size:13px; 
+	text-indent:2em;
+}
+.span_blue_bg
+{ 
+	margin-top:20px;
+}
+.span_blue_bg span
+{ 
+	display:inline-block; 
+	padding:10px 10px; 
+	background:#00468C; 
+	font-size:15px; 
+	color:#FFF; 
+	margin-right:22px;
+}
+.span_blue_bg span a
+{ 
+	color:#FFF; 
+	text-decoration:none;
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_nr
+{ 
+	clear:both; 
+	margin-left:20px; 
+	min-height:200px;
+}
+.content_p
+{
+	width:432px; 
+	min-height:89px; 
+	float:left; 
+	margin-top:40px;
+}
+.content_p p
+{ 
+	word-break:break-all; 
+	word-spacing:normal; 
+	text-indent:2em; 
+	font-size:13px;
+}
+.main_nr img
+{ 
+	float:left; 
+	margin-left:25px; 
+	margin-top:40px;
+}
+
+.blue_bg,.blue_bg_long
+{ 
+	background:#00468C;
+	width:85px; 
+	text-align:center; 
+	height:28px; 
+	line-height:28px; 
+	color:#FFF; 
+	font-size:14px; 
+	margin-bottom:-15px; 
+	margin-top:100px; 
+	clear:both;
+}
+.blue_bg_long
+{ 
+	width:145px; 
+	margin-top:10px;
+}
+/*.margin_bottom{ margin-bottom:50px;}*/
