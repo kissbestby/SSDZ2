@@ -1,0 +1,43 @@
+.nr_image{
+	float: left;
+	margin-top: 30px;
+	width: 700px;
+	text-align: center;
+}
+.nr_image img{
+	width: 300px;
+	height: 200px;
+}
+.main_nr{
+	float: left;
+	margin-left: 27px;
+	margin-top: 30px;
+}
+.main_nr p{
+	font-size: 14px;
+	width: 660px;
+	color: #808080;
+	text-indent: 28px;
+}
+.pub_message{
+	float: right;
+	margin-top: 25px;
+	font-size: 14px;
+}
+.author{
+	float: left;
+	margin-right: 15px;
+}
+.pubdata{
+	float: left;
+}
+.author:before,.pubdata:before{
+	content: " ";
+	float: left;
+	margin-top: 4px;
+	margin-right: 5px;
+	background-color: #00468C;
+	width: 14px;
+	height: 14px;
+
+}

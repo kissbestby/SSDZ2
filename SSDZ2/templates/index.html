@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}首页{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static "style/index.css" %}">
+{% include 'index-sidebar.html' %}
+
+<div class="main-frame">
+	<div class="double-box">
+		<div class="title-box">
+			<span>新闻中心</span>
+		</div>
+		<div class="content-box double-cell">
+			<img src="/static/images/news.jpg" width="310px" height="195px" alt="" />
+		</div>
+
+		<div class="content-box double-cell">
+			<script src="scripts/jquery.marquee.min.js"></script>
+			<script src="scripts/notice-box-summery.js"></script>
+			<div class="notice-box-with-summery">
+				<div class="summery-title">
+					<p class="title-large"><span>吴志功书记调研电气与电子工程学院建设情况asdfghjkl</span></p>
+				</div>
+				<p class="notice-summery">月21日下午，党委书记吴志功到电气与电子工程学院调研，并与领导班子和教师代表进行了座谈，副校长王增平参与调研。</p>
+			</div>
+			<ul class="notice-box">
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="title-box">
+			<span>通知公告</span>
+		</div>
+		<div class="content-box">
+			<ul class="notice-box">
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="title-box">
+			<span>学生工作</span>
+		</div>
+		<div class="content-box">
+			<ul class="notice-box">
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+				<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+			</ul>
+		</div>
+	</div>
+	<!-- TODO: Image Scroll :: 图片滚动模块 -->
+</div>
+<!-- End Main Frame -->
+</div>
+
+{% endblock %}

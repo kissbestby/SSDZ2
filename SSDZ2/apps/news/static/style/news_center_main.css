@@ -1,0 +1,106 @@
+.headline{
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.headline_image{
+	float: left;
+	background-image: url(../images/test1.jpg);
+	background-size: 250px 130px;
+	width: 250px;
+	height: 130px;
+}
+.headline_news{
+	float: left;
+	margin-left: 20px;
+	width: 370px;
+}
+.headline_news a{
+	display: inline-block;
+	width: 370px;
+	height: 40px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	/*font-family: "宋体";*/
+	font-weight: bolder;
+}
+.headline_news a:hover{
+	text-decoration: underline;
+}
+.headline_news p{
+	font-size: 13px;
+	text-indent: 20px;
+	color: #808080;
+}
+.news_list{
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 660px;
+}
+.news_list li{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: 15px;
+	border-top: 1px dotted #00468C;
+}
+.news_list li:last-child{
+	border-bottom: 1px dotted #00468C;
+}
+.news_list a::before{
+	content: " ";
+	/*position: absolute;*/
+	float: left;
+	margin-left: -13px;
+	margin-top: 13px;
+	left: 520px;
+	background-color: #000000;
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+}
+.news_list a{
+	float: left;
+	margin-left: 30px;
+	text-decoration: none;
+	color: #000000;
+}
+.news_list a:hover{
+	text-decoration: underline;
+}
+.news_list time{
+	float: right;
+	margin-right: 20px;
+	font-size: 13px;
+	color: #808080;
+
+}
+.yema{
+	float: left;
+	margin-top: 10px;
+	width: 700px;
+	text-align: center;
+}
+.yema a{
+	display: inline-block;
+	margin-left: 2px;
+	height: 14px;
+	line-height: 14px;
+	border: 1px solid #00468C;
+	text-decoration: none;
+	color: #000000;
+	font-size: 13px;
+}
+.yema_button{
+	width: 50px;
+}
+.yema_num{
+	width: 12px;
+}
+.yema a:hover{
+	background-color:#00468C;
+	color: #FFFFFF;
+}

@@ -5,6 +5,7 @@
 	<title>电子系 :: 首页</title>
 	<link rel="stylesheet" href="style/base.css" />
 	<link rel="stylesheet" href="style/widget.css" />
+	<link rel="stylesheet" href="style/fonts.css" />
 	<!-- jQuery -->
 	<script src="scripts/jquery-2.1.3.min.js"></script>
 
@@ -80,68 +81,84 @@
 				<div class="title-box">
 					<span>院系概况</span>
 				</div>
-				<div class="content-box">
+				<div class="content-box sidebar-content-box">
+					
 					<img src="images/intro.jpg" width="125px" height="80px" alt="Intro."/>
 					<p>电子与通信工程系成立于1980年。经过多年的建设，形成了鲜明的办学特色和明显的学科优势。现设有通信工程和电子信息科学与技术2个本科专业；计算机通信1个专科专业…</p>
 				</div>
+			</div>
+			<div class="sidebar-box">
+				<div class="title-box">
+					<span>师资队伍</span>
+				</div>
 				<div class="content-box">
-					<div class="title-box">
-						<span>师资队伍</span>
-					</div>
-					<div class="content-box">
+					
+					<div class="content-box sidebar-content-box">
 						<p class="card">电子学教研室</p>
 						<p class="card">通信教研室</p>
 						<p class="card">信息网络教研室</p>
 					</div>
 				</div>
-				<div class="content-box">
-					<div class="title-box">
-						<span>专业设置</span>
-					</div>
+			</div>
+			<div class="sidebar-box">
+				<div class="title-box">
+					<span>专业设置</span>
+				</div>
+				<div class="content-box sidebar-content-box">
+					
 					<div class="content-box">
 						<p><strong>本科专业</strong></p>
 						<p class="major-item">通信工程专业</p>
 						<p class="major-item">电子信息与科学技术专业</p>
 						<p><strong>研究生专业</strong></p>
-						<p class="major-item">电子与通信工程专业
-							<p class="major-item">信息与通信工程专业</p>
-							<p class="major-item">电路与系统专业</p>
-						</div>
+						<p class="major-item">电子与通信工程专业</p>
+						<p class="major-item">信息与通信工程专业</p>
+						<p class="major-item">电路与系统专业</p>
 					</div>
-					<div class="content-box">
-						<div class="title-box">
-							<span>友情链接</span>
-						</div>
-						<div class="content-box">
-							<select class="rellinks" onchange="javascript:if(this.selectedIndex!=0) window.open(this.options[this.selectedIndex].value,'_blank');">
-								<option>相关链接</option>
-								<option value="http://www.ncepu.edu.cn" title="华北电力大学" label="华北电力大学">华北电力大学</option>
-								<option value="http://jwc.ncepu.edu.cn" title="华北电力大学教务处（北京）" label="教务处（北京）">教务处（北京）</option>
-								<option value="http://www.hee.cn" title="河北省教育厅" label="河北省教育厅">河北省教育厅</option>
-								<option value="http://www.moe.edu.cn" title="中华人民共和国教育部" label="中华人民共和国教育部">中华人民共和国教育部</option>
-							</select>
-						</div>
-					</div>
+				</div>
+			</div>
+			<div class="sidebar-box">
+				<div class="title-box">
+					<span>友情链接</span>
+				</div>
+				<div class="content-box sidebar-content-box">
+					<select class="rellinks" onchange="javascript:if(this.selectedIndex!=0) window.open(this.options[this.selectedIndex].value,'_blank');">
+						<option>相关链接</option>
+						<option value="http://www.ncepu.edu.cn" title="华北电力大学" label="华北电力大学">华北电力大学</option>
+						<option value="http://jwc.ncepu.edu.cn" title="华北电力大学教务处（北京）" label="教务处（北京）">教务处（北京）</option>
+						<option value="http://www.hee.cn" title="河北省教育厅" label="河北省教育厅">河北省教育厅</option>
+						<option value="http://www.moe.edu.cn" title="中华人民共和国教育部" label="中华人民共和国教育部">中华人民共和国教育部</option>
+					</select>
 				</div>
 			</div>
 		</div>
+
 		<!-- End Side Bar -->
 		<!-- Main Frame -->
 		<div class="main-frame">
-			<div class="box">
+			<div class="double-box">
 				<div class="title-box">
 					<span>新闻中心</span>
 				</div>
-				<div class="content-box">
-					<img src="images/news.jpg" width="310px" height="232px" alt="" />
+				<div class="content-box double-cell">
+					<img src="images/news.jpg" width="310px" height="195px" alt="" />
 				</div>
-			</div>
-			<div class="box">
-				<div class="title-box">
-					<span>新闻中心</span>
-				</div>
-				<div class="content-box">
-					<img src="images/news.jpg" width="310px" height="232px" alt="" />
+
+				<div class="content-box double-cell">
+				<script src="scripts/jquery.marquee.min.js"></script>
+				<script src="scripts/notice-box-summery.js"></script>
+					<div class="notice-box-with-summery">
+						<div class="summery-title">
+							<p class="title-large"><span>吴志功书记调研电气与电子工程学院建设情况asdfghjkl</span></p>
+						</div>
+						<p class="notice-summery">月21日下午，党委书记吴志功到电气与电子工程学院调研，并与领导班子和教师代表进行了座谈，副校长王增平参与调研。</p>
+					</div>
+					<ul class="notice-box">
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+					</ul>
 				</div>
 			</div>
 			<div class="box">
@@ -150,11 +167,11 @@
 				</div>
 				<div class="content-box">
 					<ul class="notice-box">
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
 					</ul>
 				</div>
 			</div>
@@ -164,29 +181,28 @@
 				</div>
 				<div class="content-box">
 					<ul class="notice-box">
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
-						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>14/04/01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
+						<li><a href="#">吴志功书记调研电气与电子工程学院建设情况</a><span>04-01</span></li>
 					</ul>
 				</div>
-				<!--
-						TODO: Image Scroll :: 图片滚动模块
-				 -->
 			</div>
-			<!-- End Main Frame -->
+			<!-- TODO: Image Scroll :: 图片滚动模块 -->
 		</div>
-		<!-- End Block Homepage -->
+		<!-- End Main Frame -->
+	</div>
+	<!-- End Block Homepage -->
+	
 
-
-		<div class="footer">
-			<div class="footer-inf">
-				<p>Copyright&nbsp;&copy;&nbsp;2015&nbsp;华北电力大学电子与通信工程系</p>
-				<p>京ICP备0904325B号</p>
-			</div>
+	<div class="footer">
+		<div class="footer-inf">
+			<p>Copyright&nbsp;&copy;&nbsp;2015&nbsp;华北电力大学电子与通信工程系</p>
+			<p>京ICP备0904325B号</p>
 		</div>
+	</div>
 
 
-	</body>
-	</html>
+</body>
+</html>

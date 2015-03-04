@@ -1,0 +1,76 @@
+/* CSS Document */
+.main_nr{
+display:block;
+width: 660px;
+clear: both;
+float: left;
+margin-left: 20px;
+margin-top:20px;
+padding-left:15px;
+}
+p.wz{
+text-indent:2em;
+display:block;
+font-size:14px;
+width:400px;
+float:left;
+}
+.img img{
+margin-left:20px;
+width:200px;
+height:120px;
+}
+.mdwarp{
+height:30px;
+float:left;
+width:620px;
+margin-top:12px;
+overflow: hidden;
+}
+span.md{
+display:block;
+float:left;
+width:120px;
+height:30px;
+line-height:30px;
+font-size:15px;
+color:#FFFFFF;
+background-color:#00468C;
+text-align: center;
+}
+ul.md{
+display:block;
+list-style:none;
+float:left;
+overflow:hidden;
+width:440px;
+max-height:30px;
+}
+li,md{
+display:block;
+float:left;
+}
+a.md{
+display:block;
+text-decoration:none;
+color:#000000;
+text-align:center;
+margin-left:10px;
+}
+/*----------人名名单处理，居中--------*/
+.w2 a{
+line-height:30px;
+}
+.w1 a{
+line-height:30px;
+}
+.w3 a{
+line-height:30px;
+}
+a.mdmore{
+display:block;
+font-size:15px;
+color:#00468C;
+float:left;
+margin-left:10px;
+}

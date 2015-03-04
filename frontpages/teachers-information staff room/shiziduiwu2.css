@@ -1,0 +1,54 @@
+.main_nr{
+display:block;
+width: 660px;
+clear: both;
+float: left;
+margin-left: 20px;
+margin-top:20px;
+padding-left:15px;
+}
+.img1{
+width:60px;
+float:left;
+margin-left:15px;
+}
+.img1 span{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:60px;
+text-align:center;
+}
+.img1 a
+{
+	text-decoration: none;
+	color: #000;
+}
+.warp{
+width:620px;
+float:left;
+margin-bottom:30px;
+}
+.xiaobt{
+display:block;
+font-size:16px;
+margin-bottom:10px;
+font-weight: bold;
+}
+/*----------photo form-----------*/
+.main_nr img{
+width:60px;
+height:72px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS Document */
+

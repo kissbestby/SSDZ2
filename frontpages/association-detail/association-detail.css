@@ -1,0 +1,84 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.main_nr_left
+{ 
+	float:left; 
+	width:265px; 
+	margin-left:30px;
+	margin-top:10px;
+}
+.main_nr_right
+{  
+	float:left; 
+	width:360px; 
+	margin-left:20px; 
+	margin-top:10px;
+}
+.main_nr_left p
+{ 
+	font-size:13px; 
+	text-indent:2em;
+}
+.main_nr_left img
+{ 
+	margin-top:5px;
+}
+.main_nr_left h5,.main_nr_right h5
+{ 
+	font-size:15px; 
+	font-family:"微软雅黑"; 
+	margin-bottom:5px;
+}
+.main_nr_right ul li
+{ 
+	height:30px; 
+	line-height:30px; 
+	border-bottom:dotted 1px #BFD1E2; 
+	list-style-type:none; 
+	padding-left:10px; 
+}
+.article a
+{ 
+	color:#000; 
+	text-decoration:none; 
+	font-family:"微软雅黑"; 
+	font-size:13px;
+}
+.main_nr_right ul li a:hover
+{ 
+	color:#F00;
+}
+.main_nr_right span
+{ 
+	float:right; 
+	color:#666666; 
+	font-size:12px;
+}
+.main_nr_bottom
+{ 
+	float:left;
+	width:690px;
+	margin-top:30px; 
+	font-family:"微软雅黑"; 
+	margin-left:30px; 
+	margin-bottom:20px; 
+	width:650px;
+}
+.main_nr_bottom h5
+{ 
+	display:inline-block; 
+	color:#00468C; 
+	font-size:15px; 
+	margin-right:45px;
+}
+.main_nr_bottom span
+{
+	background:#00468C; 
+	margin-right:20px; 
+	padding:10px 15px;
+}
+.main_nr_bottom span a
+{ 
+	color:#FFF; 
+}
